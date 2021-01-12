@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bootstrap</title>
+
+    <style>
+        *{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Personal details -->
+    <div class="contain bg-white border-light rounded-lg">
+        <h3 class="ml-5 mt-5">Personal Details</h3>
+        <form class="ml-5 mt-4">
+            <div class="form-row">
+                <div class="form-group col-sm-3">
+                    <label for="fname">First Name<span>*</span></label><br>
+                    <input type="text" name="first-name" id="fname" placeholder="Placeholder">
+                </div>
+                <div class="form-group pl-5 ">
+                    <label for="lname">Last Name<span>*</span></label><br>
+                    <input type="text" name="last-name" id="lname" placeholder="Placeholder">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-3">
+                    <label for="email">Email<span>*</span></label><br>
+                    <input type="email" name="email" id="email" placeholder="Placeholder">
+                </div>
+                <div class="form-group pl-5">
+                    <label for="mobile">Mobile Number<span>*</span></label><br>
+                    <input type="text" name="mobile-no" id="mobile" placeholder="Placeholder">
+                </div>
+            </div>
+        </form>        
+    </div>
+
+    <!-- Academic details -->
+    <div class="contain bg-white border-light rounded-lg">
+        <h3 class="ml-5 mt-5">Academic Details</h3>
+        <form class="ml-5 mt-4">
+            <div>
+                <div class="form-group">
+                    <label for="clg-name" class="col-sm-2">College Name<span>*</span></label>
+                    <input type="text" name="college-name" id="clg-name" class="ml-5" placeholder="Placeholder">
+                </div>
+
+                <div class="form-group">
+                    <label for="dept-name" class="col-sm-2">Department Name<span>*</span></label>
+                    <input type="text" name="dept-name" id="dept-name" class="ml-5" placeholder="Placeholder">
+                </div>
+
+                <div class="form-group">
+                    <label for="roll-no" class="col-sm-2">Roll Number</label>
+                    <input type="text" name="roll-no" id="roll-no" class="ml-5" placeholder="Placeholder">
+                </div>
+
+                <div class="form-group">
+                    <label for="gra-year" class="col-sm-2">Graduate Year</label>
+                    <input type="text" name="graduate-year" id="gra-year" class="ml-5" placeholder="Placeholder">
+                </div>
+                
+            </div>
+        </form>
+    </div>
+
+    <!-- Other details -->
+    <div class="contain bg-white border-light rounded-lg">
+        <h3 class="ml-5 mt-4">Other Details</h3>
+        <form class="ml-5 mt-4">
+            <div class="form-group row">
+                <div>
+                    <label for="area">Areas Of Interest<span>*</span></label>
+                    <input type="text" name="interest"  id="area" placeholder="Placeholder">
+                </div>
+                <div>
+                    <label for="hobby" >Hobby</label>
+                    <input type="text" name="hobby" id="hobby" placeholder="Placeholder">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div>
+                    <label for="year1" >Graduating Year</label>
+                    <input type="text" name="year" id="year1" placeholder="Placeholder">
+                </div>
+                <div>
+                    <label for="year2">Graduating Year</label>
+                    <input type="text" name="yera2" id="year2" placeholder="Placeholder">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Button -->
+    <div class="ml-5">
+        <div class="d-flex justify-content-end mb-5">
+            <button type="button" class="btn btn-primary text-white">Edit</button>
+            <button type="button" class="btn btn-primary text-white ml-4">Save</button>
+        </div>
+    </div>
+</body>
+</html>
