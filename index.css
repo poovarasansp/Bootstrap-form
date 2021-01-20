@@ -69,3 +69,16 @@ div{
         margin-right: 40px;
     }
 }
+
+@media screen and (max-width:425px){
+    #names{
+        padding-left: 0px;
+    }
+    .year{
+        margin-right: 0%;
+    }
+    .btn{
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+}
